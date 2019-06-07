@@ -1,0 +1,238 @@
+body{
+  margin:0;
+  padding: 0;
+
+  height: 100%;
+  }
+  html{
+    width: 1200px;
+  }
+
+
+.hidari{
+  background: #b0c4de;
+  position: fixed;
+  padding-right: 10px;
+  width: 150px;
+  height: 100%;
+  z-index: 999;
+}
+
+.forHeader{
+  background-image: url("image/草.jpg");
+  height: 70px;
+  width: 100%;
+}
+h1{
+  text-shadow: 5px 8px 5px blue;
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  margin: 0;
+  left: 375px;
+  z-index: 50;
+  width: 800px;
+}
+
+h2{
+  font-size: 20px;
+  background: #6d8c2e;
+  color: white;
+  font-style: italic;
+  text-align: left;
+  padding: 20px 0 20px 10px;
+  margin: 0;
+  width: 150px;
+}
+.hidarino{
+  list-style: none;
+}
+.hidarino li{
+  margin-bottom: 10px;
+  margin-top: 50px;
+  font-size: 18px;
+}
+.hidarino a{
+  text-decoration: none;
+}
+.hidarino a:hover{
+  color: gray;
+  font-size: 22px;
+}
+/* ここまででheaderと左の部分ここまででheaderと左の部分 */
+section{
+  position: relative;
+  }
+  #migi{
+  position: absolute;
+  width: 200px;
+  height: 100%;
+  background: #ffffe0;
+  right: 0;
+  z-index: 400;
+}
+#kaeru{
+  height: 320px;
+  position: relative;
+  border-bottom: 8px double aquamarine;
+}
+#kaeru h3{
+  position: absolute;
+  left: 485px;
+  font-size: 25px;
+  z-index: 40;
+  width: 200px;
+}
+#kaeru img{
+  position: absolute;
+  left: 150px;
+  top: 0;
+  width: 350px;
+  height: 250px;
+  z-index: 20;
+}
+#kaeru p{
+  position: absolute;
+  width: 350px;
+  height: 130px;
+  left: 570px;
+  top: 120px;
+  margin: 0;
+  font-size: 30px;
+}
+
+/* ここからカンガルーここからカンガルーここからカンガルーここからカンガルー */
+#kangaru-{
+  height: 320px;
+  position: relative;
+  border-bottom: 8px double aquamarine;
+}
+#kangaru- h3{
+  position: absolute;
+  left: 485px;
+  font-size: 25px;
+  z-index: 40;
+  width: 200px;
+}
+#kangaru- img{
+  position: absolute;
+  left: 610px;
+  top: 50px;
+  width: 350px;
+  height: 250px;
+  z-index: 20;
+}
+#kangaru- p{
+  position: absolute;
+  width: 330px;
+  height: 130px;
+  left: 180px;
+  top: 100px;
+  margin: 0;
+  font-size: 30px;
+}
+
+/* ここから犬ここから犬ここから犬ここから犬 */
+
+#inu{
+  height: 320px;
+  position: relative;
+  border-bottom: 8px double aquamarine;
+}
+#inu h3{
+  position: absolute;
+  left: 485px;
+  font-size: 25px;
+  z-index: 40;
+  width: 200px;
+}
+#inu img{
+  position: absolute;
+  left: 150px;
+  top: 0;
+  width: 350px;
+  height: 250px;
+  z-index: 20;
+}
+#inu p{
+  position: absolute;
+  width: 350px;
+  height: 130px;
+  left: 570px;
+  top: 100px;
+  margin: 0;
+  font-size: 30px;
+}
+/* ここからキツネここからキツネここからキツネここからキツネ */
+
+#kitune{
+  height: 340px;
+  position: relative;
+  border-bottom: 8px double aquamarine;
+}
+#kitune h3{
+  position: absolute;
+  left: 485px;
+  font-size: 25px;
+  z-index: 40;
+  width: 200px;
+}
+#kitune img{
+  position: absolute;
+  left: 610px;
+  top: 60px;
+  width: 350px;
+  height: 260px;
+  z-index: 20;
+}
+#kitune p{
+  position: absolute;
+  width: 330px;
+  height: 130px;
+  left: 180px;
+  top: 100px;
+  margin: 0;
+  font-size: 30px;
+}
+/* ここから下の部分 */
+
+
+#matome{
+  position: relative;
+  height: 330px;
+
+}
+#matome h2{
+  position: absolute;
+  margin-top: 10px;
+  background: pink;
+  border-radius: 50px;
+  text-shadow: 6px 6px 15px white;
+  width: 400px;
+  height: 40px;
+  font-size: 25px;
+  left: 330px;
+}
+#matome p{
+  position: absolute;
+  font-size: 18px;
+  left: 180px;
+  width: 780px;
+  top: 90px;
+
+}
+
+
+footer{
+  background: silver;
+  position: relative;
+  height: 100px;
+  width: 100%;
+}
+footer ul{
+  position: absolute;
+  left: 850px;
+  width: 150px;
+
+}
